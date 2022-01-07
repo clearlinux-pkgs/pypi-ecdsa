@@ -18,14 +18,14 @@ Provides: ecdsa
 Provides: ecdsa-python
 Provides: ecdsa-python3
 BuildRequires : openssl-dev
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py
 BuildRequires : py-python
 BuildRequires : pyOpenSSL
 BuildRequires : pypi(six)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 # Pure-Python ECDSA and ECDH
