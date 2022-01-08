@@ -4,7 +4,7 @@
 #
 Name     : pypi-ecdsa
 Version  : 0.17.0
-Release  : 75
+Release  : 76
 URL      : https://files.pythonhosted.org/packages/bf/3d/3d909532ad541651390bf1321e097404cbd39d1d89c2046f42a460220fb3/ecdsa-0.17.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bf/3d/3d909532ad541651390bf1321e097404cbd39d1d89c2046f42a460220fb3/ecdsa-0.17.0.tar.gz
 Summary  : ECDSA cryptographic signature library (pure python)
@@ -14,18 +14,13 @@ Requires: pypi-ecdsa-license = %{version}-%{release}
 Requires: pypi-ecdsa-python = %{version}-%{release}
 Requires: pypi-ecdsa-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: ecdsa
-Provides: ecdsa-python
-Provides: ecdsa-python3
 BuildRequires : openssl-dev
-BuildRequires : pypi(pluggy)
-BuildRequires : py
-BuildRequires : py-python
-BuildRequires : pyOpenSSL
+BuildRequires : pypi(py)
 BuildRequires : pypi(six)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 # Pure-Python ECDSA and ECDH
@@ -74,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641434125
+export SOURCE_DATE_EPOCH=1641682407
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
