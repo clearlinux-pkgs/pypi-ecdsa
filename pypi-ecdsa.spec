@@ -7,7 +7,7 @@
 #
 Name     : pypi-ecdsa
 Version  : 0.19.0
-Release  : 94
+Release  : 95
 URL      : https://files.pythonhosted.org/packages/5e/d0/ec8ac1de7accdcf18cfe468653ef00afd2f609faf67c423efbd02491051b/ecdsa-0.19.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5e/d0/ec8ac1de7accdcf18cfe468653ef00afd2f609faf67c423efbd02491051b/ecdsa-0.19.0.tar.gz
 Summary  : ECDSA cryptographic signature library (pure python)
